@@ -1,0 +1,21 @@
+CREATE TABLE messages
+(
+    username char(20),
+    room char(20),
+    message varchar,
+    __createdtime__ date
+)
+select * from messages;
+
+delete from messages;
+
+create table files(
+	name char(20),
+	blob varchar(200),
+	room char(20),
+	__createdtime__ date
+);
+
+select * from files;
+
+delete from files;

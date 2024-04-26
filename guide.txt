@@ -1,0 +1,44 @@
+npx create-react-app client-side
+npm i react-router-dom socket.io-client
+npm i express cors dotenv axios knex pg
+npm install bootstrap --save
+npm install reactstrap react react-dom
+npm install react-icons --save
+
+to start client side => npm start
+to  start server side => npm run dev
+
+Database - 
+
+-- Database: chatApp
+
+-- DROP DATABASE IF EXISTS "chatApp";
+
+CREATE DATABASE "chatApp"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_India.1252'
+    LC_CTYPE = 'English_India.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+-- Table: public.messages
+
+-- DROP TABLE IF EXISTS public.messages;
+
+CREATE TABLE IF NOT EXISTS public.messages
+(
+    username character(20) COLLATE pg_catalog."default",
+    room character(20) COLLATE pg_catalog."default",
+    message character varying COLLATE pg_catalog."default",
+    __createdtime__ date
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.messages
+    OWNER to postgres;
+
+npm install --save react-input-emoji
+npm install react-files --save

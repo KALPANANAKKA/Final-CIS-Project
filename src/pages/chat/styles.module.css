@@ -1,0 +1,176 @@
+.page{
+    background-color: lightcyan;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.users{
+    width: 400px;
+    height: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+}
+
+.messages{
+    width: 800px;
+    height: 730px;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.attachments{
+    width: 300px;
+    height: 730px;
+    /* border: 1px solid #ccc; */
+    color: black;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.heading1{
+    background-color: rgb(126, 33, 126);
+    color: white;
+    padding: 10px;
+}
+
+.send_message{
+    width: 800px;
+    height: 75px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.send_message_inner{
+    width: 100%;
+    display: flex;
+}
+
+.inputText{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 90%;
+}
+
+.inputText:hover{
+    border: 2px solid purple;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.leaveBtn{
+    margin-left: 10px;
+    background-color: purple;
+    border-color: purple;
+}
+
+.leaveBtn:hover{
+    
+    background-color: rgb(191, 126, 167);
+    border-color: rgb(191, 126, 167);
+}
+
+.heading{
+    width: 95%;
+    height: 30%;
+    background-color: rgb(126, 33, 126);
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: whitesmoke;
+}
+
+.usersList{
+    /* width: 95%;
+    height: 30%; */
+    /* background-color: lightblue; */
+    /* padding-top: 6%; */
+    padding-bottom: 6%;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: purple;
+    list-style-type: none;
+}
+
+.userHeading{
+    width: 95%;
+    height: 30%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 2%;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: purple;
+}
+
+
+.sendBtn{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    background-color: purple;
+    border-color: purple;
+}
+
+.fileBtn{
+    margin-top: 15px;
+    margin-left: 15px;
+    /* margin-right: 10px; */
+    /* margin-bottom: 10px; */
+    width: 5%;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.sendBtn:hover{
+    background-color: rgb(191, 126, 167);
+    border-color: rgb(191, 126, 167);
+}
+
+.messageContainer{
+    width: 97%;
+    background-color: purple;
+    color: white;
+    gap: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    height: 100%;
+    overflow: auto;
+}
+
+.message{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+
+.userName{
+    font-weight: bold;
+}
+
+.msg{
+    font-style: italic;
+}
+
+.userTime{
+    color:antiquewhite
+}
